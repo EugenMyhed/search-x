@@ -66,7 +66,6 @@ const SearchPage = () => {
         setSearchHistory(prev => prev.filter(historyItem => historyItem !== item));
     }, []);
 
-
     return (
         <div className='search-page'>
             <SearchBar
